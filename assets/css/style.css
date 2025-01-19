@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin: 20px;
+}
+
+table
+{
+    margin: 10px;
+    border-collapse: collapse;
+    
+}
+td{
+    width: 90vw;
+    height: 3vh;
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    height:10vh;
+}
+img
+{
+    height:10vh;
+}
