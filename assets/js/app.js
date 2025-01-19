@@ -2,7 +2,7 @@ $(document).ready(() => {
     $.getJSON("assets/json/MOCK_DATA.json",
         function (data) {
              person = '';
-            $.each(data, function (key, value) {
+            $.each(data, function (key,value) {
                 person += '<tr>';
                 person += '<td><img src="' + value.profile + '"></td>'
                 person += '<td>' + value.first_name + "&nbsp" + value.last_name + '</td>';
