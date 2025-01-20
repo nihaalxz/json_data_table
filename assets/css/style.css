@@ -6,10 +6,11 @@ body
     margin: 20px;
 }
 
-table
+#person_table
 {
     margin: 10px;
     border-collapse: collapse;
+    border: 1px solid black;
     
 }
 td{
@@ -20,6 +21,7 @@ td{
 }
 th{
     height:10vh;
+    border: 1px solid black;
 }
 img
 {
